@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_day">明天</string>
+    <string name="second_day">后天</string>
+    <string name="third_day">周三</string>
+    <string name="forth_day">周四</string>
+    <string name="first_temperature">10/25℃</string>
+    <string name="second_temperature">10/25℃</string>
+    <string name="third_temperature">10/25℃</string>
+    <string name="forth_temperature">10/25℃</string>
+    <string name="weather_area">北京</string>
+    <string name="weather_pollution">重度污染[299]</string>
+    <string name="weather_text">晴</string>
+    <string name="weather_temperature_range">10^C~12~C</string>
+    <string name="weather_temperature">25</string>
+    <string name="weather_temperature_unit">℃</string>
+    <string name="daily_tip">每日提醒</string>
+    <string name="daily_tip_text">距离妈妈生日还有5天</string>
+</resources>

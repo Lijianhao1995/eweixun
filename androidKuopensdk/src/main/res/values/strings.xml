@@ -1,0 +1,5 @@
+<resources>
+    <string name="jd_oauth_login">jingdong login</string>
+    <string name="loading">loading...</string>
+    <string name="alert_error">Application requires permission to access the Internet</string>
+</resources>

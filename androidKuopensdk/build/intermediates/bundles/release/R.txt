@@ -1,0 +1,4 @@
+int drawable jingdong_logo 0x7f020000
+int string alert_error 0x7f030000
+int string jd_oauth_login 0x7f030001
+int string loading 0x7f030002

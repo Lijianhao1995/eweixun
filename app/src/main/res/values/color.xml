@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="red">#FF0000</color>
+	<color name="gray">#FFCCCCCC</color>
+	<color name="black">#FF000000</color>
+	<color name="white">#FFFFFFFF</color>
+	<color name="blue">#EE0000C6</color>
+	<color name="dark_red">#FFCC0000</color>
+	<color name="product_odd_row">#FFFFFFFF</color>
+	<color name="product_even_row">#FFF5F5F5</color>
+    <color name="light_gray">#FFE6E6E6</color>
+	
+	<drawable name="button_pressed">#ffff9e05</drawable>
+    <drawable name="button_normal">#FFCCCCCC</drawable>
+
+    <!-- 列表项被点击时高亮效果 -->
+    <drawable name="list_row_active">#ffff9e05</drawable>
+    <drawable name="list_row_pressed">#ffff9e05</drawable>
+
+    <!-- 列表行背景色-Normal -->
+    <drawable name="list_row_mormal">#FFFFFFFF</drawable>
+	
+    <!-- 系统默认有的按钮或者背景颜色或图片可以使用这个来去掉 -->
+    <drawable name="none">#00FFFFFF</drawable>
+</resources>

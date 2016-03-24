@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">易微迅</string>
+    <string name="search_button">搜索</string>
+    <string name="hello">你好</string>
+    <string name="ware_detail_price">价格：</string>
+    <string name="ware_detail_region">地区：</string>
+    <string name="go_mpage_button">购买</string>
+</resources>

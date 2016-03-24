@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">环信</string>
+    <string name="login">登录</string>
+    <string name="user_name">账号</string>
+    <string name="user_passwd">密码</string>
+    <string name="account_def">请填写登陆账号</string>
+    <string name="passwd_def">请填写密码</string>
+    <string name="quick_reg">手机快速注册</string>
+    <string name="forget_pwd">忘记密码？</string>
+    <string name="lwjx">礼物精选</string>
+    <string name="session">主页</string>
+    <string name="address_book">我的</string>
+    <string name="setting">设置</string>
+    <string name="ewxun">易微迅</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_button">搜索</string>
+    <string name="hello">你好</string>
+    <string name="ware_detail_price">价格：</string>
+    <string name="ware_detail_region">地区：</string>
+    <string name="go_mpage_button">购买</string>
+</resources>

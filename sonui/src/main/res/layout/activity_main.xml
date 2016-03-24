@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wayne.sonui.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/login_background"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="48dp"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:background="@drawable/login_logo" />
+        <TextView
+            android:layout_marginTop="6dp"
+            android:layout_width="48dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="225dp"
+            android:background="@drawable/login_logo_text"
+            />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/login_text_view_border"
+            android:stretchColumns="1">
+            <TableRow
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_name"
+                    android:textSize="16sp"
+                    android:textColor="#4f4c4c"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="8dp"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:selectAllOnFocus="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@null"/>
+            </TableRow>
+            <View
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#80a0a0a0"
+                />
+            <TableRow
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_passwd"
+                    android:textColor="#4f4c4c"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="8dp"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:background="@null"
+                    android:selectAllOnFocus="true"
+                    android:layout_marginRight="16dp"/>
+            </TableRow>
+        </TableLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/login"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:background="@drawable/login_button_border"
+                android:id="@+id/login_button"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/login_button"
+                android:layout_alignLeft="@id/login_button"
+                android:textColor="#ffffff"
+                android:text="@string/quick_reg"
+                android:background="#00000000"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/login_button"
+                android:layout_alignRight="@id/login_button"
+                android:text="@string/forget_pwd"
+                android:background="@null"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:textColor="#ffffff"
+                android:id="@+id/forget_pwd"
+                />
+
+
+
+
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="96dp"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/icon_wechat"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:id="@+id/login_wchat"
+                />
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="96dp"
+                android:src="@drawable/icon_wblog"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/login_wchat"
+                android:layout_marginBottom="16dp"
+                android:id="@+id/other_login_text">
+                <View
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_width="16dp"
+                    android:layout_height="1dp"
+                    android:background="#aa101010"
+                    />
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="使用社交账号登陆"
+                    android:textSize="16dp" />
+                <View
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_width="16dp"
+                    android:layout_height="1dp"
+                    android:background="#aa101010"
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

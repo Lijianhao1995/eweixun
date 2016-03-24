@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidKuopensdk/androidKuopensdk.iml" filepath="$PROJECT_DIR$/androidKuopensdk/androidKuopensdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circleimageview/circleimageview.iml" filepath="$PROJECT_DIR$/circleimageview/circleimageview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eweixun.iml" filepath="$PROJECT_DIR$/eweixun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/huanxin/huanxin.iml" filepath="$PROJECT_DIR$/huanxin/huanxin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sonui/sonui.iml" filepath="$PROJECT_DIR$/sonui/sonui.iml" />
+    </modules>
+  </component>
+</project>
